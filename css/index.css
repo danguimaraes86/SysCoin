@@ -5,7 +5,7 @@ body {
 
 #form-estagio {
   margin: 20px auto;
-  width: 50%;
+  width: 60%;
 }
 
 #form-botoes {
@@ -25,4 +25,24 @@ body {
 #form-botoes a {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+  #form-estagio {
+    width: 80%;
+  }
+}
+
+@media (max-width: 475px) {
+  body {
+    width: 100%;
+  }
+
+  #form-estagio {
+    width: 80%;
+  }
 }
